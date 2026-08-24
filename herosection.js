@@ -22,7 +22,7 @@ let isARActive = false;
 let currentTrackingType = 'none';
 let activeFilter = 'none';
 let userGender = "female";
-//loading images on canvas
+
 const productImages = {
   shirt: "canvas-images/shirt.png",
   mug: "canvas-images/mug.png",
