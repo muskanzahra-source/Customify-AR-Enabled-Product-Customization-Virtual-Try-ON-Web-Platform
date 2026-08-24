@@ -24,23 +24,23 @@ let activeFilter = 'none';
 let userGender = "female";
 
 const productImages = {
-  shirt: "canvas-images/shirt.png",
-  mug: "canvas-images/mug.png",
-  dupata: "canvas-images/dupta.png",
-  pants: "canvas-images/pant.png",
-  cap: "canvas-images/cap.png",
-  sash: "canvas-images/sash.png",
-  printed: "canvas-images/printed.png",
-  suit: "canvas-images/suit.png",
-  bed: "canvas-images/bed.png",
-  festive: "canvas-images/festive.png",
-  cover: "canvas-images/mobile.png",
-  bag: "canvas-images/bag.png",
-  glasses: "canvas-images/glasses.png",
-  necklace: "canvas-images/necklace.png",
-  braslate: "canvas-images/braslate.png",
-  frock: "canvas-images/frock.png",
-  keychain: "canvas-images/keychain.png"
+  shirt: "shirt.png",
+  mug: "mug.png",
+  dupata: "dupta.png",
+  pants: "pant.png",
+  cap: "cap.png",
+  sash: "sash.png",
+  printed: "printed.png",
+  suit: "suit.png",
+  bed: "bed.png",
+  festive: "festive.png",
+  cover: "mobile.png",
+  bag: "bag.png",
+  glasses: "glasses.png",
+  necklace: "necklace.png",
+  braslate: "braslate.png",
+  frock: "frock.png",
+  keychain: "keychain.png"
 };
 function fitStageIntoParentContainer() {
     const container = document.querySelector('.canvas-wrap');
@@ -172,7 +172,7 @@ function saveOrderToLocal(total, itemsArray) {
 }
 // image slider of hero section
 document.addEventListener("DOMContentLoaded", function () {
-  const images = ["shirt.jpg", "necklace copy.jpg", "Mugs.jpg", "pants.jpg"];
+  const images = ["shirt.jpg", "necklace.png", "Mugs.jpg", "pants.jpg"];
   let index = 0;
   const img = document.getElementById("heroImage");
   if (img) {
