@@ -172,7 +172,7 @@ function saveOrderToLocal(total, itemsArray) {
 }
 // image slider of hero section
 document.addEventListener("DOMContentLoaded", function () {
-  const images = ["images/shirt.jpg", "images/necklace copy.jpg", "images/Mugs.jpg", "images/pants.jpg"];
+  const images = ["shirt.jpg", "necklace copy.jpg", "Mugs.jpg", "pants.jpg"];
   let index = 0;
   const img = document.getElementById("heroImage");
   if (img) {
